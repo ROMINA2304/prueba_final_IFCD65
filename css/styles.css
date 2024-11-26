@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFAF2;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding:10px ;
+    border: 1px solid #DDF4FF;
+    background-color: #DDF4FF;
+    border-radius: 20px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-family: Roboto;
+}
+
+input , textarea, select {
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+

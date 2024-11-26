@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contascto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <form id="formulario">
+
+    <label for="text" id="name">Nombre :</label><br>
+    <input type="text" id="name" name="name"  required placeholder="Introduce tu nombre"><br>
+    <label for="text" id="subname-label">Apellidos :</label><br>
+    <input type="text" id="subname" name="subname"  required placeholder="Introduce tus apellidos"><br>
+    <label for="email" id="email-label">Email de contacto :</label><br>
+    <input type="email" id="email" name="email" placeholder="Introduce tu email"><br>
+    <label for="number" id="number-label">Num. de contacto :</label><br>
+    <input type="number" id="number" name="number" placeholder="Introduce tu numero"><br>
+
+    <label>Motivo del contacto :</label>
+
+    <select id="motivos" name="motivos">
+      <option value="Consulta">Consulta</option>
+      <option value="Reclamació">Reclamació</option>
+      <option value="Sugerencias">Sugerencias</option>
+      <option value="Otro motivo">Otro motivo</option>
+    </select>
+
+    <label>Descripción del problema : </label>
+
+    <textarea name="descripción" rows="10" cols="30"> </textarea><br><br>
+
+    <input id="submit" type="submit" value="Enviar">
+
+  </form>
+    
+</body>
+</html>
